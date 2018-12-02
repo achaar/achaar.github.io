@@ -3,24 +3,23 @@
     <header class="header">
         <div class="top-bar container-fluid">
             <div class="actions">
-                <a class="btn" href="mailto:somya.anand214@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact Me</a>
+                <a class="btn" href="mailto:ankur.iitg2016@gmail.com"><i class="fa fa-paper-plane" aria-hidden="true"></i> Contact Me</a>
                 <nuxt-link class="btn" to="/blog"><i class="fa fa-pencil"></i> Blog & Projects</nuxt-link>
             </div><!--//actions-->
             <ul class="social list-inline">
-                <li><a href="https://www.linkedin.com/in/somya-anand-5ab974a3" target="_blank" title="LinkedIn Profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/@anand_somya" target="_blank" title="@anand_somya on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/aby0" target="_blank" title="aby0 on Github"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-                <li><a href="" target="_blank" title="somya.anand on Skype"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ankur-kunder-62320170" target="_blank" title="LinkedIn Profile"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <!--<li><a href="https://twitter.com/@ankur_kunder" target="_blank" title="@ankur_kunder on Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>-->
+                <li><a href="https://github.com/achaar" target="_blank" title="achaar on Github"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
             </ul><!--//social-->
         </div><!--//top-bar-->
         
         <div class="intro">
             <div class="container text-center">
                 <img class="profile-image" src="//github.com/achaar.png" alt="">
-                <h1 class="name">Somya Anand</h1>
-                <div class="title">Software Engineer | Data Scientist</div>
+                <h1 class="name">Ankur Kunder</h1>
+                <div class="title">Software Engineer | ML Enthusiast</div>
                 <div class="profile">
-                    <p>I am currently working at Paytm as a software engineer (most of the time acting as a data scientist, making sense out of data). I completed my bachelors in Mathematics and Computing from IIT Guwahati. I am also a machine learning enthusiast, ardent game of thrones fan, an amateur writer, travel freak, full time data scientist at heart and part time dreamer.</p>
+                    <p>I am currently working at SRI-Delhi as a Software Engineer. I have a B.Tech in ECE with a Minor in CSE. I am also a machine learning enthusiast and currently learning about topics such as YOLO and GANs. In leisure time, I like to read books on Economics, watch TV shows, sketch, and play Basketball.</p>
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->
@@ -28,9 +27,9 @@
         <div class="contact-info">
             <div class="container text-center">
                 <ul class="list-inline">
-                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:somya.anand214@gmail.com">somya.anand214@gmail.com</a></li>
-                    <li><i class="fa fa-phone"></i> <a href="tel: +917896893086">+91 78 96 893086</a></li>
-                    <li class="website"><i class="fa fa-globe"></i><a href="http://aby.ninja">aby.ninja</a></li>
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto:ankur.iitg2016@gmail.com">ankur.iitg2016@gmail.com</a></li>
+                    <li><i class="fa fa-phone"></i> <a href="tel: +918473994800">+91 8473994800</a></li>
+                    <li class="website"><i class="fa fa-globe"></i><a href="https://achaar.github.io">achaar.github.io</a></li>
                 </ul>
             </div><!--//container-->
         </div><!--//contact-info-->
@@ -57,7 +56,7 @@
             <div class="timeline">
                 <div class="item">
                     <div class="work-place">
-                        <h3 class="place">Paytm</h3>
+                        <h3 class="place">Samsung Research Institute - Delhi</h3>
                         <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore</div>
                     </div>
                     <div class="job-meta">
@@ -65,14 +64,12 @@
                         <div class="time">July 2016 – Current</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>The role includes Working on horizontally scalable distributed platform (Data Science Platform) in travel marketplace and responsible for providing better insights across all travel vertical. Major projects undertaken:</p> 
-                        <ul>
-                            <li>Fare Alert System</li>
-                            <li>Fare Calendar System</li>
-                            <li>Fare Trends</li>
-                            <li>User Classification</li>
-
-                        </ul>
+                        <p>The role includes maintaining and developing parts of an Application that is used to Mirror TV screen on P2P connected devices.</p> 
+                        <!--<ul>
+                            <li>Implemented a State Machine using Boost Statechart Library</li>
+                            <li>Inter-process communication using DBus</li>
+                            <li>Two different Proof of Concepts</li>
+                        </ul>-->
                     </div><!--//job-desc-->
                 </div><!--//item-->
                 
@@ -83,24 +80,24 @@
                     </div>
                     <div class="job-meta">
                         <div class="title">Undergrad Researcher</div>
-                        <div class="time">May 2015 – July 2015</div>
+                        <div class="time">June 2015 – July 2015</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>Researched role of emotions in on-line communities using agent based approach.</p> 
+                        <p>Researched on Pedestrian Detection using Deep Learning.</p> 
                     </div><!--//job-desc-->
                 </div><!--//item-->
                 
                 <div class="item">
                     <div class="work-place">
-                        <h3 class="place">Human Genetics Unit, Indian Statistical Institute</h3>
+                        <h3 class="place">Speech Technology Lab, Indian Institute of Technology Guwahati</h3>
                         <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Kolkata</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Sophomore Researcher</div>
-                        <div class="time">May 2014 – July 2014</div>
+                        <div class="time">May 2014 – June 2014</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>The role involved analysis of univariate & multivariate probability distributions and associated regressions.</p> 
+                        <p>Researched Assamese Text classification using Neural Networks.</p> 
                     </div><!--//job-desc-->
                 </div><!--//item-->
                 
@@ -113,7 +110,7 @@
             <div class="row">
                 <div class="item col-xs-12 col-sm-12">
                     <div class="item-inner">
-                        <h3 class="degree">BTech Mathematics and Computing</h3>
+                        <h3 class="degree">B.Tech. Electronics and Communication Engineering with a Minor in Computer Science and Engineering.</h3>
                         <div class="education-body">
                             Indian Institute of Technology Guwahati
                         </div><!--//education-body-->
@@ -165,7 +162,7 @@
                             <h4 class="skill-name">C/C++</h4>
                             <div class="level">Advanced, 4 years</div>
                             <div class="desc">
-                                First language, saviour since 2011.
+                                First language, saviour since 2012.
                             </div>
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -175,25 +172,15 @@
             <div class="other-skills">
                 <h3 class="subtitle">Other Skills</h3>
                 <div class="misc-skills">
-                    <span class="skill-tag">Pandas</span>
+                    <span class="skill-tag">TensorFlow</span>
                     <span class="skill-tag">Numpy</span>
                     <span class="skill-tag">Linux</span>
-                    <span class="skill-tag">Node.js</span>
-                    <span class="skill-tag">Javascript</span>
                     <br>
-                    <span class="skill-tag">R</span>
                     <span class="skill-tag">MATLAB</span>
-                    <span class="skill-tag">Elasticsearch</span>
-                    <span class="skill-tag">Kafka</span>
+                    <span class="skill-tag">Git</span>
                     <br>
-                    <span class="skill-tag">Redis</span>
-                    <span class="skill-tag">Cassandra</span>
-                    <span class="skill-tag">MongoDB</span>
-                    <br>
-                    <span class="skill-tag">Spark</span>
-                    <span class="skill-tag">Scala</span>
-                    <br>
-                    <span class="skill-tag">TensorFlow</span>
+                    <span class="skill-tag">Boost Statechart Library</span>
+                    <span class="skill-tag">Network Programming</span>
                 </div>
             </div><!--//other-skills-->
             
@@ -213,10 +200,10 @@
         <section id="contact" class="contact-section section">
             <h2 class="section-title">Get in Touch</h2>
             <div class="intro">
-                <img class="profile-image" src="//github.com/aby0.png" alt="">
+                <img class="profile-image" src="//github.com/achaar.png" alt="">
                 <div class="dialog">
                     <p>
-                      I'm currently looking for machine learning opportunities.
+                      I'm currently learning to develop better ML Applications.
                       <br>
                       <br>
                       <br>
@@ -230,7 +217,7 @@
     
     <footer class="footer text-center">
         <div class="container">
-            <small class="copyright">&copy; 2017 Somya Anand</small>
+            <small class="copyright">&copy; 2018 Ankur Kunder</small>
         </div><!--//container-->
     </footer>
   </div>
