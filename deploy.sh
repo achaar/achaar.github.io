@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TEMP_DIR=".acchar.github.io";
-REPO="git@github.com:acchar/acchar.github.io";
+TEMP_DIR=".achaar.github.io";
+REPO="git@github.com:achaar/achaar.github.io";
 RELEASE=$(date)
 
 if [ -d ${TEMP_DIR} ]; then
