@@ -1,2 +1,9 @@
 # achaar.github.io
-My Website
+
+My website and blog
+
+## Build & Deploy
+
+``` bash
+
+```

@@ -1,0 +1,41 @@
+{
+  "id": "fare-alert-system",
+  "slug": "fare-alert-system",
+  "highlightedLanguages": [],
+  "source": "---\ndate: 2017-05-12\ntags:\n    - project\n---\n# Fare alert system\n\nPurchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.\n\n## Fare volatility\n\nAirline fare system is one of the most dynamic metric in travel industry. For instance, Airlines start actively increasing fares in the last 2 weeks, often doubling them 24hrs prior to departure time. Under competitive pressure from other airlines, they also announce flash sales with significantly reduced fares sometimes by even 50%. The catch however is, limited seat availability at such discounted fares. This dynamism in fares fluctuating up and down often during the same day, is bound to drive travellers anxious about fares. As a result, a potential customer often search multiple times inorder to find the best pricing for the route. Thus, designing a fare-alert system which can monitor the fare changes for the routes that the user is interested in and notify them when there is a significant change in the fare can contribute towards a hassle free airfare booking, hence a better customer experience.\n\n## Fare alert utility\n\nCustomers typically search anxiously 15-30 times before making a successful booking. Based on the search the customers have made, we can identify the important routes for the customer. We then can watch out for those route for any price flucuation. Fare alert system can be used for notification in the following scenarios:\n\n* If a user has searched for a particular origin, destination and date of journey multiple times, we can register user for that very route. We then notify them when there is a significant change in that route.\n\n* If a user has made activity till payment booking or cart checkout and then dropped off, we can customize our fare alert to notify the user with current fare, thereby converting a potential customer.\n\n## Architecture\n\nWe can divide the entire architecture into two segments.\n\n* Log all search action performed by the user and then pass it into a event stream which will categorize them into different topics, then register them for significant routes.\n\n* Watch for the change in price for these route which can be initiated through search logs, if there is any significant change in fares, notify users regarding the change.\n\n<!--Write about curator and multiple engagement through fare alerts  -->\n\n## Further possibilities\n\n<!--Write about personalizing fare alerts for more customized experience  -->\n",
+  "rendered": "<h1>Fare alert system</h1>\n<p>Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.</p>\n<h2>Fare volatility</h2>\n<p>Airline fare system is one of the most dynamic metric in travel industry. For instance, Airlines start actively increasing fares in the last 2 weeks, often doubling them 24hrs prior to departure time. Under competitive pressure from other airlines, they also announce flash sales with significantly reduced fares sometimes by even 50%. The catch however is, limited seat availability at such discounted fares. This dynamism in fares fluctuating up and down often during the same day, is bound to drive travellers anxious about fares. As a result, a potential customer often search multiple times inorder to find the best pricing for the route. Thus, designing a fare-alert system which can monitor the fare changes for the routes that the user is interested in and notify them when there is a significant change in the fare can contribute towards a hassle free airfare booking, hence a better customer experience.</p>\n<h2>Fare alert utility</h2>\n<p>Customers typically search anxiously 15-30 times before making a successful booking. Based on the search the customers have made, we can identify the important routes for the customer. We then can watch out for those route for any price flucuation. Fare alert system can be used for notification in the following scenarios:</p>\n<ul>\n<li>\n<p>If a user has searched for a particular origin, destination and date of journey multiple times, we can register user for that very route. We then notify them when there is a significant change in that route.</p>\n</li>\n<li>\n<p>If a user has made activity till payment booking or cart checkout and then dropped off, we can customize our fare alert to notify the user with current fare, thereby converting a potential customer.</p>\n</li>\n</ul>\n<h2>Architecture</h2>\n<p>We can divide the entire architecture into two segments.</p>\n<ul>\n<li>\n<p>Log all search action performed by the user and then pass it into a event stream which will categorize them into different topics, then register them for significant routes.</p>\n</li>\n<li>\n<p>Watch for the change in price for these route which can be initiated through search logs, if there is any significant change in fares, notify users regarding the change.</p>\n</li>\n</ul>\n<!--Write about curator and multiple engagement through fare alerts  -->\n<h2>Further possibilities</h2>\n<!--Write about personalizing fare alerts for more customized experience  -->\n",
+  "attributes": {
+    "date": "2017-05-12T00:00:00.000Z",
+    "tags": [
+      {
+        "id": "project",
+        "name": "project"
+      }
+    ],
+    "title": "Fare alert system",
+    "updated_at": "2018-11-27T03:41:56.801Z",
+    "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+    "collection": {
+      "id": "airfare-insights",
+      "name": "Airfare Insights"
+    }
+  },
+  "title": "Fare alert system",
+  "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+  "keywords": [
+    "project"
+  ],
+  "published_at": "2017-05-12T00:00:00.000Z",
+  "updated_at": "2018-11-27T03:41:56.801Z",
+  "year": 2017,
+  "month": 5,
+  "day": 13,
+  "prev": {
+    "id": "fare-calendar-system",
+    "slug": "fare-calendar-system",
+    "collection": "airfare-insights",
+    "title": "Smart Fare calendar system",
+    "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+    "published_at": "2018-11-27T03:41:56.801Z"
+  }
+}

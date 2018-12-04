@@ -1,0 +1,30 @@
+{
+  "id": "airfare-insights",
+  "name": "Airfare Insights",
+  "articles": [
+    {
+      "id": "fare-alert-system",
+      "slug": "fare-alert-system",
+      "collection": "airfare-insights",
+      "title": "Fare alert system",
+      "description": "Purchasing a flight ticket, though a simple and quick affair, causes lot of anxiety to many travellers even today due to the fact that airlines frequently change fares. Due to this dynamic nature of airfare fluctuation, fare alert system plays a key role in customer engagement and better user experience in travel industry.",
+      "published_at": "2017-05-12T00:00:00.000Z"
+    },
+    {
+      "id": "fare-calendar-system",
+      "slug": "fare-calendar-system",
+      "collection": "airfare-insights",
+      "title": "Smart Fare calendar system",
+      "description": "Design a simple fare calendar system in order to cluster different price range in respective air route to get a better understanding to price variation throughout the year. Instead of having just minimum, maximum and median airfare to represent three classes of fare distribution in fare calendar,\nwe can design a smart airfare categorization using clustering algorithms.",
+      "published_at": "2018-11-27T03:41:56.801Z"
+    },
+    {
+      "id": "fare-trends",
+      "slug": "fare-trends",
+      "collection": "airfare-insights",
+      "title": "Fare Trends",
+      "description": "Pricing for airlines is one of the most volatile and dynamic metric in the travel industry. No wonder, it can drive potential customer really anxious before buying an airline ticket. Thus there is a great need for proper fare analytics and fare trend visualisations for better user experience and hassle free booking.",
+      "published_at": "2018-11-27T03:41:56.801Z"
+    }
+  ]
+}

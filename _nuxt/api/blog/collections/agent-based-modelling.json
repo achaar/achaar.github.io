@@ -1,0 +1,15 @@
+{
+  "id": "agent-based-modelling",
+  "name": "Agent Based Modelling",
+  "articles": [
+    {
+      "id": "agent-based-modelling",
+      "slug": "agent-based-modelling",
+      "collection": "agent-based-modelling",
+      "title": "Role of emotions in online communities: An agent based approach",
+      "description": "We tend to analyze how people express their emotion in online communities using an agent based approach. We developed an agent based model to see the impact of emotion in integration and disintegration. Further we check the effect of anonymity in the behavior of agents in online communities.",
+      "photo": "/images/agent-based-modeling/main-model.png",
+      "published_at": "2017-08-11T00:00:00.000Z"
+    }
+  ]
+}
