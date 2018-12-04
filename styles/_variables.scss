@@ -3,10 +3,11 @@
 
 $font-family-base: 'Roboto', sans-serif;
 
-$brand-primary: #2BBBAD;//#a1004b;
+$brand-primary: #9852d1;
+$brand-secondary: #4e0788;
 $theme-colors: (
-  "primary":    #2BBBAD;//#a1004b,
-  "secondary":  #00695c//#88001d,
+  "primary":    $brand-primary,
+  "secondary":  $brand-secondary,
 );
 
 // Button

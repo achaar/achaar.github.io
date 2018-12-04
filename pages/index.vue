@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="index-page">
     <header class="header">
         <div class="top-bar container-fluid">
             <div class="actions">
@@ -125,14 +125,14 @@
         </section><!--//section-->
         
         
-        <section id="skills-section" class="skills-section section text-center">
+        <section id="skills" class="skills-section section text-center">
             <h2 class="section-title">Professional Skills</h2>
             <div class="top-skills">
                 <h3 class="subtitle">Top Skills</h3>
                 <div class="row">
                     <div class="item col-xs-12 col-sm-4">
                         <div class="item-inner">
-                            <PieChart bar-color="#008fa1" scale-color="#fff" :percent="100" :size="160" :line-width="8">
+                            <PieChart :bar-color="color" scale-color="#fff" :percent="100" :size="160" :line-width="8">
                               Python
                             </PieChart>
                             <h4 class="skill-name">Python &amp; Scikit Learn</h4>
@@ -144,7 +144,7 @@
                     </div><!--//item-->
                     <div class="item col-xs-12 col-sm-4">
                         <div class="item-inner">
-                            <PieChart bar-color="#008fa1" scale-color="#fff" :percent="75" :size="160" :line-width="8">
+                            <PieChart :bar-color="color" scale-color="#fff" :percent="75" :size="160" :line-width="8">
                               Java
                             </PieChart>
                             <h4 class="skill-name">Java</h4>
@@ -156,7 +156,7 @@
                     </div><!--//item-->
                     <div class="item col-xs-12 col-sm-4">
                         <div class="item-inner">
-                            <PieChart bar-color="#008fa1" scale-color="#fff" :percent="60" :size="160" :line-width="8">
+                            <PieChart :bar-color="color" scale-color="#fff" :percent="60" :size="160" :line-width="8">
                               C/C++
                             </PieChart>
                             <h4 class="skill-name">C/C++</h4>
@@ -228,15 +228,28 @@ import PieChart from 'vue-easy-pie-chart'
 import 'vue-easy-pie-chart/dist/vue-easy-pie-chart.css'
 
 export default {
-  components: { PieChart }
+  components: { PieChart },
+  data() {
+    return { color: '#000' }
+  },
+  mounted() {
+    this.color = getComputedStyle(this.$el).getPropertyValue('--brand-primary').trim()
+  }
 }
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/variables";
+
+.index-page {
+  --brand-primary: #{$brand-primary};
+  --brand-secondary: #{$brand-secondary};
+}
+
 .btn,
 a.btn {
   line-height: 1.5;
-  background: #008fa1;
+  background: $brand-primary;
   background-clip: padding-box;
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
@@ -248,12 +261,12 @@ a.btn {
 .btn:hover,
 a.btn:hover {
   color: #fff;
-  background: #00a5bb;
+  background: $brand-primary;
 }
 
 
 .header {
-  background: #00BCD4;
+  background: $brand-primary;
   color: #fff;
 }
 .header a {
@@ -329,7 +342,7 @@ a.btn:hover {
 }
 
 .header .intro {
-  background: #00a5bb;
+  background: $brand-primary;
   padding-top: 90px;
   padding-bottom: 60px;
   position: relative;
@@ -342,7 +355,7 @@ a.btn:hover {
 }
 
 .header .contact-info {
-  background: #008fa1;
+  background: $brand-primary;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 16px;
@@ -374,7 +387,7 @@ a.btn:hover {
   position: relative;
 }
 .page-nav-wrapper {
-  background: #007888;
+  background: $brand-secondary;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -390,7 +403,7 @@ a.btn:hover {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #00BCD4;
+  background: $brand-secondary;
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -459,7 +472,7 @@ a.btn:hover {
   text-align: center;
 }
 .timeline {
-  border-left: 3px solid #00BCD4;
+  border-left: 3px solid $brand-primary;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
@@ -490,7 +503,7 @@ a.btn:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  border: 3px solid #00BCD4;
+  border: 3px solid $brand-primary;
 }
 .timeline .item:after {
   content: "";
@@ -508,7 +521,7 @@ a.btn:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #00BCD4;
+  background: $brand-primary;
   z-index: 10;
 }
 .timeline .work-place {
@@ -536,7 +549,7 @@ a.btn:hover {
 }
 .timeline .job-meta .title {
   font-size: 18px;
-  color: #00BCD4;
+  color: $brand-primary;
 }
 .timeline .job-meta .time {
   color: #8a8a8a;
@@ -552,7 +565,7 @@ a.btn:hover {
 }
 .education-section .degree {
   font-size: 18px;
-  color: #00BCD4;
+  color: $brand-primary;
   margin-top: 0;
   margin-bottom: 0px;
 }
@@ -652,7 +665,7 @@ a.btn:hover {
   width: 36px;
   height: 36px;
   display: inline-block;
-  background: #00BCD4;
+  background: $brand-primary;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -679,7 +692,7 @@ a.btn:hover {
   margin-right: 5px;
 }
 .testimonials-section .carousel-indicators li.active {
-  background-color: #00BCD4;
+  background-color: $brand-secondary;
   width: 10px;
   height: 10px;
   margin: 0;
@@ -707,14 +720,14 @@ a.btn:hover {
   margin-right: 0;
 }
 .portfolio-section .filters .type.active {
-  color: #00BCD4;
-  border-bottom: 2px solid #00BCD4;
+  color: $brand-secondary;
+  border-bottom: 2px solid $brand-secondary;
 }
 .portfolio-section .item {
   margin-bottom: 30px;
 }
 .portfolio-section .item-inner {
-  background: #00BCD4;
+  background: $brand-primary;
   color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -791,7 +804,7 @@ a.btn:hover {
   margin-bottom: 15px;
 }
 .contact-section .service-list .fa {
-  color: #00BCD4;
+  color: $brand-primary;
 }
 .contact-section .social {
   margin-bottom: 0;
@@ -809,7 +822,7 @@ a.btn:hover {
   color: #8a8a8a;
 }
 .contact-section .social a:hover {
-  color: #00BCD4;
+  color: $brand-secondary;
 }
 .footer .container {
   padding: 30px;

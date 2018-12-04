@@ -3,7 +3,7 @@ const { description } = require('./package.json')
 
 module.exports = {
   head: {
-    title: 'Somya Anand',
+    title: 'Ankur Kunder',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -23,7 +23,7 @@ module.exports = {
     '@nuxtjs/axios',
     { src: '@nuxtjs/blog', options: {
       static: true,
-      base: 'https://aby.ninja',
+      base: 'https://achaar.github.io',
       markdown: {
         plugins: [require('markdown-it-katex'), require('markdown-it-attrs')]
       }
