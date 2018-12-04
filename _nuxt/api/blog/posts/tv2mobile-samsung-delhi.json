@@ -27,6 +27,15 @@
   "month": 11,
   "day": 2,
   "next": {
+    "id": "adhd",
+    "slug": "adhd",
+    "collection": null,
+    "title": "Attention Deficit Hyperactivity Disorder (ADHD) Related Resources",
+    "description": "Wikipedia: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
+    "photo": "/images/adhd.jpg",
+    "published_at": "2018-11-01T00:00:00.000Z"
+  },
+  "prev": {
     "id": "snake-robot-with-passive-wheels-and-wireless-contr",
     "slug": "snake-robot-with-passive-wheels-and-wireless-contr",
     "collection": null,

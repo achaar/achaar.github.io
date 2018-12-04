@@ -21,13 +21,21 @@
   "year": 2018,
   "month": 11,
   "day": 2,
-  "prev": {
-    "id": "pedestrian-detection-using-deep-learning",
-    "slug": "pedestrian-detection-using-deep-learning",
+  "next": {
+    "id": "robotic-arm",
+    "slug": "robotic-arm",
     "collection": null,
-    "title": "Pedestrian Detection using Deep Learning @ Summer Research Internship at Hanyang University, Korea",
-    "description": "I started by reading research papers to understand what type of classifier would be required for the problem. After reading a few papers, I picked a then state of the art paper from 2013 with the title Joint Deep Learning for Pedestrian Detection. I learned about the challenges related to Object Detection, in particular, about Deformation and Occlusion Handling. The objective was to detect a pedestrian in a given window and the novelty of the paper was to learn all the parameters related to feature extraction, deformation & occlusion handling, and the classifier simultaneously, whereas these were obtained separately in the previous approaches. What was interesting about the approach was that the filters in the second layer were of different sizes to account for the different parts and their occlusion statuses. In the next layer, a deformation model was learned based on the quadratic constraint of deformation, which added the weighted sum of deformation maps to the part detection matrices obtained from the second layer, and then the result was max-pooled to get a Part score. 20 Parts were divided into 3 levels, consisting of arms & legs (level I), torso(level II), one half of the body(level III), etc. Since, the parts at a lower level are related to parts at the higher level, for example, hands are part of the torso, Visibility and Classification of the parts was modeled keeping this in mind. Therefore, parameters from lower levels also contributed to the detection of objects at higher levels. A sigmoid function was used as an activation function in the classification model. The learning was done by Back Propagating the error obtained on the log loss.",
-    "photo": "/images/intern-cover.jpg",
+    "title": "Robotic Arm",
+    "description": "Designed and made a Robotic arm in my Sophomore Year with my friends, Ayush and Rahul. The design was made on Google SketchUp. The robot for made for a competition in Inter Hostel Technical Festival of IITG, Kriti. The bot was needed to clamp objects in an arena and then drop them in bins. Ayush and I, worked on the robot's hardware and construction, while Rahul helped us code the equations on the Arduino environment. We calculated the maximum torque at each joint, so that the robot could be optimally designed. We used an Arduino board for programming the Servo motors and the commands for movement were sent from the laptop through a USB connection. I solved for the equations for the compound movements, i.e., left key would move the bot by how much at each joint. This helped us write exact equations for each servo. Ayush worked on the clamp and Rahul came up with the solution for avoinding an Enter key after every command so that the bot was easy to use. The bot worked really well and was the best designed bot at the competition. But, we still got kicked out. And that's a story for another day!",
+    "photo": "/images/robotic-arm-cover.jpg",
+    "published_at": "2018-11-01T00:00:00.000Z"
+  },
+  "prev": {
+    "id": "tv2mobile-samsung-delhi",
+    "slug": "tv2mobile-samsung-delhi",
+    "collection": null,
+    "title": "TV2Mobile @ Samsung, Delhi",
+    "description": "It's an application that Mirrors the Samsung TV screen on to the Mobile phone, Samsung Refrigerator, etc.",
     "published_at": "2018-11-01T00:00:00.000Z"
   }
 }
