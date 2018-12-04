@@ -1,7 +1,7 @@
 #!/bin/bash
 
-TEMP_DIR=".aby0.github.io";
-REPO="git@github.com:aby0/aby0.github.io";
+TEMP_DIR=".acchar.github.io";
+REPO="git@github.com:acchar/acchar.github.io";
 RELEASE=$(date)
 
 if [ -d ${TEMP_DIR} ]; then
@@ -20,7 +20,7 @@ cp README.md ${TEMP_DIR};
 # Commit and push.
 cd ${TEMP_DIR};
 git add -A;
-git commit -m "Deployed at ${RELEASE}" --author "Somya Anand <somyaanand214@gmail.com>";
+git commit -m "Deployed at ${RELEASE}" --author "Ankur Kunder <a.kunder@iitg.ernet.in>";
 git push origin master;
 
 cd ..
