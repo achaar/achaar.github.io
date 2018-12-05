@@ -57,7 +57,7 @@
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">Samsung Research Institute - Delhi</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore</div>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Noida</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Software Engineer</div>
@@ -90,7 +90,7 @@
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">Speech Technology Lab, Indian Institute of Technology Guwahati</h3>
-                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Kolkata</div>
+                        <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Guwahati</div>
                     </div>
                     <div class="job-meta">
                         <div class="title">Sophomore Researcher</div>
