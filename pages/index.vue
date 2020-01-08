@@ -12,18 +12,18 @@
                 <li><a href="https://github.com/achaar" target="_blank" title="achaar on Github"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
             </ul><!--//social-->
         </div><!--//top-bar-->
-        
+
         <div class="intro">
             <div class="container text-center">
                 <img class="profile-image" src="//github.com/achaar.png" alt="">
                 <h1 class="name">Ankur Kunder</h1>
                 <div class="title">Software Engineer | ML Enthusiast</div>
                 <div class="profile">
-                    <p>I am currently working at SRI-Delhi as a Software Engineer. I have a B.Tech in ECE with a Minor in CSE. I am also a machine learning enthusiast and currently learning about topics such as YOLO and GANs. In leisure time, I like to read books on Economics, watch TV shows, sketch, and play Basketball.</p>
+                    <p>I am currently a MSCS Graduate Student at Texas A&M University. Prior to this I was working at SRI-Delhi as a Software Engineer. I have a B.Tech in ECE with a Minor in CSE. I have interest in ML, DL, NLP, and RL. In leisure time, I like to read books on Economics, watch TV shows, sketch, and play Basketball.</p>
                 </div><!--//profile-->
             </div><!--//container-->
         </div><!--//intro-->
-        
+
         <div class="contact-info">
             <div class="container text-center">
                 <ul class="list-inline">
@@ -33,7 +33,7 @@
                 </ul>
             </div><!--//container-->
         </div><!--//contact-info-->
-        
+
         <div class="page-nav-space-holder hidden-xs">
             <div id="page-nav-wrapper" class="page-nav-wrapper text-center">
                 <div class="container">
@@ -47,9 +47,9 @@
                 </div>
             </div><!--//page-nav-wrapper-->
         </div>
-        
+
     </header><!--//header-->
-    
+
     <div class="wrapper container">
         <section id="experiences" class="experiences-section section">
             <h2 class="section-title">Work Experiences</h2>
@@ -61,10 +61,10 @@
                     </div>
                     <div class="job-meta">
                         <div class="title">Software Engineer</div>
-                        <div class="time">July 2016 – Current</div>
+                        <div class="time">July 2016 – August 2019</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>The role includes maintaining and developing parts of an Application that is used to Mirror TV screen on P2P connected devices.</p> 
+                        <p>The role includes maintenance and development of an Application that is used to Mirror TV screen on MiraCast Enabled devices.</p>
                         <!--<ul>
                             <li>Implemented a State Machine using Boost Statechart Library</li>
                             <li>Inter-process communication using DBus</li>
@@ -72,7 +72,7 @@
                         </ul>-->
                     </div><!--//job-desc-->
                 </div><!--//item-->
-                
+
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">Hanyang University</h3>
@@ -83,10 +83,10 @@
                         <div class="time">June 2015 – July 2015</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>Researched on Pedestrian Detection using Deep Learning.</p> 
+                        <p>Researched on Pedestrian Detection using Deep Learning.</p>
                     </div><!--//job-desc-->
                 </div><!--//item-->
-                
+
                 <div class="item">
                     <div class="work-place">
                         <h3 class="place">Speech Technology Lab, Indian Institute of Technology Guwahati</h3>
@@ -97,14 +97,14 @@
                         <div class="time">May 2014 – June 2014</div>
                     </div><!--//job-meta-->
                     <div class="job-desc">
-                        <p>Researched Assamese Text classification using Neural Networks.</p> 
+                        <p>Researched Assamese Text classification using Neural Networks.</p>
                     </div><!--//job-desc-->
                 </div><!--//item-->
-                
+
             </div><!--//timeline-->
-            
+
         </section><!--//section-->
-        
+
         <section id="education" class="education-section section">
             <h2 class="section-title">Education</h2>
             <div class="row">
@@ -119,12 +119,12 @@
                         </div>
                     </div><!--//item-inner-->
                 </div><!--//item-->
-              
-                
+
+
             </div><!--//row-->
         </section><!--//section-->
-        
-        
+
+
         <section id="skills" class="skills-section section text-center">
             <h2 class="section-title">Professional Skills</h2>
             <div class="top-skills">
@@ -136,21 +136,9 @@
                               Python
                             </PieChart>
                             <h4 class="skill-name">Python &amp; Scikit Learn</h4>
-                            <div class="level">Expert, 3 years</div>
+                            <div class="level">Advanced, 3 years</div>
                             <div class="desc">
-                                Prototyping ML and data analytics algorithms using scikit-learn, pandas and TensorFlow.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item col-xs-12 col-sm-4">
-                        <div class="item-inner">
-                            <PieChart :bar-color="color" scale-color="#fff" :percent="75" :size="160" :line-width="8">
-                              Java
-                            </PieChart>
-                            <h4 class="skill-name">Java</h4>
-                            <div class="level">Advanced, 1 years</div>
-                            <div class="desc">
-                                Learnt and mastered at work.
+                                Nearly all academic projects done on Python.
                             </div>
                         </div><!--//item-inner-->
                     </div><!--//item-->
@@ -168,7 +156,7 @@
                     </div><!--//item-->
                 </div><!--//row-->
             </div><!--//top-skills-->
-            
+
             <div class="other-skills">
                 <h3 class="subtitle">Other Skills</h3>
                 <div class="misc-skills">
@@ -183,9 +171,9 @@
                     <span class="skill-tag">Network Programming</span>
                 </div>
             </div><!--//other-skills-->
-            
+
         </section><!--//skills-section-->
-        
+
         <!-- <section id="portfolio" class="portfolio-section section">
             <h2 class="section-title">Portfolio</h2>
             <ul id="filters" class="filters clearfix">
@@ -194,16 +182,16 @@
                 <li class="type">Front-end</li>
             </ul>
             <div class="items-wrapper row"></div>
-            
+
         </section> -->
-        
+
         <section id="contact" class="contact-section section">
             <h2 class="section-title">Get in Touch</h2>
             <div class="intro">
                 <img class="profile-image" src="//github.com/achaar.png" alt="">
                 <div class="dialog">
                     <p>
-                      I'm currently learning to develop better ML Applications.
+                      I'm currently learning about the most recent advancements in DL, NLP, and AI.
                       <br>
                       <br>
                       <br>
@@ -212,9 +200,9 @@
             </div><!--//intro-->
 
         </section><!--//section-->
-        
+
     </div><!--//wrapper-->
-    
+
     <footer class="footer text-center">
         <div class="container">
             <small class="copyright">&copy; 2018 Ankur Kunder</small>
