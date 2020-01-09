@@ -110,6 +110,18 @@
             <div class="row">
                 <div class="item col-xs-12 col-sm-12">
                     <div class="item-inner">
+                        <h3 class="degree">Master of Science in Computer Science.</h3>
+                        <div class="education-body">
+                            Texas A&M University
+                        </div><!--//education-body-->
+                        <div class="time">2019 - Present</div>
+                        <div class="desc">
+                        </div>
+                    </div><!--//item-inner-->
+                </div><!--//item-->
+
+                <div class="item col-xs-12 col-sm-12">
+                    <div class="item-inner">
                         <h3 class="degree">B.Tech. Electronics and Communication Engineering with a Minor in Computer Science and Engineering.</h3>
                         <div class="education-body">
                             Indian Institute of Technology Guwahati
@@ -119,6 +131,7 @@
                         </div>
                     </div><!--//item-inner-->
                 </div><!--//item-->
+
 
 
             </div><!--//row-->
@@ -192,6 +205,7 @@
                 <div class="dialog">
                     <p>
                       I'm currently learning about the most recent advancements in DL, NLP, and AI.
+                      Read about my courses at TAMU here: <a href="https://docs.google.com/document/d/14h9kbjfHArHROVxSyxIOCzwbsHq6ndzrgFpyZfgU_mY">My Semester So Far</a>
                       <br>
                       <br>
                       <br>
