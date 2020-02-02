@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "dependencies": {
+    "@nuxtjs/axios": "^3.0.1",
+    "@nuxtjs/blog": "0.0.1-6",
+    "bootstrap": "^4.1.3",
+    "markdown-it-attrs": "^1.0.0",
+    "markdown-it-katex": "^2.0.3",
+    "node-sass": "^4.13.0",
+    "nuxt": "^1.4.4",
+    "particles.js": "^2.0.0",
+    "vue-easy-pie-chart": "^1.0.3"
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "predeploy": "npm run generate",
+    "deploy": "./deploy.sh"
+  },
+  "devDependencies": {
+    "sass-resources-loader": "^1.3.0"
+  }
+}
