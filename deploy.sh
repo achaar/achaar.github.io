@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEMP_DIR=":achaar.github.io";
+TEMP_DIR="achaar.github.io";
 REPO="git@github.com:achaar/achaar.github.io";
 RELEASE=$(date)
 
