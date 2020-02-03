@@ -13,7 +13,7 @@
       }
     ],
     "title": "TV2Mobile @ Samsung, Delhi",
-    "updated_at": "2018-12-04T03:45:46.024Z",
+    "updated_at": "2020-01-09T06:04:54.291Z",
     "description": "It's an application that Mirrors the Samsung TV screen on to the Mobile phone, Samsung Refrigerator, etc."
   },
   "title": "TV2Mobile @ Samsung, Delhi",
@@ -22,20 +22,11 @@
     "project"
   ],
   "published_at": "2018-11-01T00:00:00.000Z",
-  "updated_at": "2018-12-04T03:45:46.024Z",
+  "updated_at": "2020-01-09T06:04:54.291Z",
   "year": 2018,
   "month": 11,
   "day": 2,
   "next": {
-    "id": "adhd",
-    "slug": "adhd",
-    "collection": null,
-    "title": "Attention Deficit Hyperactivity Disorder (ADHD) Related Resources",
-    "description": "Wikipedia: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
-    "photo": "/images/adhd.jpg",
-    "published_at": "2018-11-01T00:00:00.000Z"
-  },
-  "prev": {
     "id": "snake-robot-with-passive-wheels-and-wireless-contr",
     "slug": "snake-robot-with-passive-wheels-and-wireless-contr",
     "collection": null,

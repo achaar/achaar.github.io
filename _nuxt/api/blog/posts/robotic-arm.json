@@ -13,7 +13,7 @@
       }
     ],
     "title": "Robotic Arm",
-    "updated_at": "2018-12-04T04:21:14.655Z",
+    "updated_at": "2020-01-09T06:04:54.290Z",
     "description": "Designed and made a Robotic arm in my Sophomore Year with my friends, Ayush and Rahul. The design was made on Google SketchUp. The robot for made for a competition in Inter Hostel Technical Festival of IITG, Kriti. The bot was needed to clamp objects in an arena and then drop them in bins. Ayush and I, worked on the robot's hardware and construction, while Rahul helped us code the equations on the Arduino environment. We calculated the maximum torque at each joint, so that the robot could be optimally designed. We used an Arduino board for programming the Servo motors and the commands for movement were sent from the laptop through a USB connection. I solved for the equations for the compound movements, i.e., left key would move the bot by how much at each joint. This helped us write exact equations for each servo. Ayush worked on the clamp and Rahul came up with the solution for avoinding an Enter key after every command so that the bot was easy to use. The bot worked really well and was the best designed bot at the competition. But, we still got kicked out. And that's a story for another day!",
     "photo": "/images/robotic-arm-cover.jpg"
   },
@@ -24,7 +24,7 @@
     "project"
   ],
   "published_at": "2018-11-01T00:00:00.000Z",
-  "updated_at": "2018-12-04T04:21:14.655Z",
+  "updated_at": "2020-01-09T06:04:54.290Z",
   "year": 2018,
   "month": 11,
   "day": 2,
@@ -38,12 +38,12 @@
     "published_at": "2018-11-01T00:00:00.000Z"
   },
   "prev": {
-    "id": "adhd",
-    "slug": "adhd",
+    "id": "snake-robot-with-passive-wheels-and-wireless-contr",
+    "slug": "snake-robot-with-passive-wheels-and-wireless-contr",
     "collection": null,
-    "title": "Attention Deficit Hyperactivity Disorder (ADHD) Related Resources",
-    "description": "Wikipedia: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
-    "photo": "/images/adhd.jpg",
+    "title": "Snake Robot with Passive Wheels and Wireless Control",
+    "description": "The main objective was to make a robot that had the gait of a snake and can be wirelessly controlled. As students, we had the idea of microcontrollers, motors, and mechanics etc., but it was difficult to zero in on a design. We considered many elaborate designs but rejected them due to the time constraint of three months. We ended up pursuing the Joint and  Edge model, where a sinusoidal wave is transmitted through the connections. When a time delayed sine wave was applied to the joints, it created motion in the forward direction, somewhat similar to how we use roller-skates. The work was divided into categories such as design, procurement of materials, manufacturing of parts, software implementation, and establishing wireless communication. The wireless communication was done using WiFi Direct on ZigBee. I worked on the design, software implementation, and on assembling the robot. I wrote the code using the Arduino IDE, for which I learnt Object Oriented Programming, which helped me write a compact and reusable code. The robot had forward, backward, and turning movement commands which were implemented using the Servo library. The input was received on the ZigBee which transmitted it to the Arduino board. The chassis and joints were also made by the team from Aluminium sheets. We decided to attach passive wheels for smoothness, but we were unable to get the right clips for attaching the wheels.  So, I stepped in to learn Grinding at the Mechanical workshop, and then made all the joint clips by working at the machine. This made me appreciate what Mechanical Engineers did and how the tools and machines help us sculpt things that we imagine. We then assembled the whole robot complete with circuit connections and after a few trials, it worked.",
+    "photo": "/images/snake-robot.png",
     "published_at": "2018-11-01T00:00:00.000Z"
   }
 }
