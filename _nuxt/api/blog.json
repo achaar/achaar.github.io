@@ -1,14 +1,5 @@
 [
   {
-    "id": "adhd",
-    "slug": "adhd",
-    "collection": null,
-    "title": "Attention Deficit Hyperactivity Disorder (ADHD) Related Resources",
-    "description": "Wikipedia: https://en.wikipedia.org/wiki/Attention_deficit_hyperactivity_disorder",
-    "photo": "/images/adhd.jpg",
-    "published_at": "2018-11-01T00:00:00.000Z"
-  },
-  {
     "id": "mitosis-detection-using-deep-learning",
     "slug": "mitosis-detection-using-deep-learning",
     "collection": null,
